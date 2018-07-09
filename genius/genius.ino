@@ -89,10 +89,10 @@ void loop() {
 
 void JogoFinalizadoSucesso()
 {
-    piscaLed(LED_VERDE);
-    piscaLed(LED_AMARELO);
-    piscaLed(LED_AZUL);
-    piscaLed(LED_VERMELHO);
+    PiscaLed(LED_VERDE);
+    PiscaLed(LED_AMARELO);
+    PiscaLed(LED_AZUL);
+    PiscaLed(LED_VERMELHO);
     delay(MEIO_SEGUNDO);
 }
 
