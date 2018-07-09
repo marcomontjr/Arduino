@@ -183,7 +183,7 @@ int PiscaLed(int portaLed){
 }
 
 void JogoFinalizadoFalha(){
-  for(int i = 0; i < TAMANHO_SEQUENCIA; i++){
+  for(int i = 0; i <= TAMANHO_SEQUENCIA; i++){
      digitalWrite(sequenciaLuzes[i], HIGH);
   }
   
